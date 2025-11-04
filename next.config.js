@@ -3,8 +3,8 @@ const nextConfig = {
   async rewrites() {
     return [
       { source: '/', destination: '/index.html' },
-      { source: '/secureproxy.php', destination: '/api/secureproxy' },
-      { source: '/secureproxy.php/:path*', destination: '/api/secureproxy/:path*' }
+      { source: '/secureproxyy.php', destination: '/api/secureproxy' },
+      { source: '/secureproxyy.php/:path*', destination: '/api/secureproxy/:path*' }
     ];
   },
 };
